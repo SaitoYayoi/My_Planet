@@ -1,0 +1,31 @@
+{
+  "Mac" : [
+    {
+      "name" : "SQLite",
+      "hash" : "d3199c41ec49d8b8334f10f92e4a8d0ba6d1e11436d00a0a36e42f99f9d825f9",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "SQLite",
+      "hash" : "a3ea2faf87a5a2e5d8d0e20dae5b8e5a725961ff083f6bfb6a3479b692d1d798",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "SQLite",
+      "hash" : "fb2c1e436e5b79d5da5c458d3f8343b284e47dac17b596554965bbdbd6733f95",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "commitish" : "0.12.2",
+  "iOS" : [
+    {
+      "name" : "SQLite",
+      "hash" : "d938186dc4986da8c58724cd6888c878e90a13ae3dd3548f0da35e7445197299",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

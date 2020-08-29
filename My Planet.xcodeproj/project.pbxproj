@@ -9,21 +9,115 @@
 /* Begin PBXBuildFile section */
 		FF18784124388FAF006A4451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18784024388FAF006A4451 /* AppDelegate.swift */; };
 		FF18784324388FAF006A4451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18784224388FAF006A4451 /* SceneDelegate.swift */; };
-		FF18784524388FAF006A4451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18784424388FAF006A4451 /* ViewController.swift */; };
-		FF18784824388FAF006A4451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF18784624388FAF006A4451 /* Main.storyboard */; };
 		FF18784A24388FB2006A4451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF18784924388FB2006A4451 /* Assets.xcassets */; };
 		FF18784D24388FB2006A4451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF18784B24388FB2006A4451 /* LaunchScreen.storyboard */; };
+		FF18786A24388FDA006A4451 /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18785524388FD9006A4451 /* STKDataSource.m */; };
+		FF18786B24388FDA006A4451 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18785624388FD9006A4451 /* STKAudioPlayer.m */; };
+		FF18786C24388FDA006A4451 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18785724388FD9006A4451 /* STKAutoRecoveringHTTPDataSource.m */; };
+		FF18786D24388FDA006A4451 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18785A24388FD9006A4451 /* STKHTTPDataSource.m */; };
+		FF18786E24388FDA006A4451 /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18786024388FD9006A4451 /* NSMutableArray+STKAudioPlayer.m */; };
+		FF18786F24388FDA006A4451 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18786124388FD9006A4451 /* STKDataSourceWrapper.m */; };
+		FF18787024388FDA006A4451 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18786324388FD9006A4451 /* STKLocalFileDataSource.m */; };
+		FF18787124388FDA006A4451 /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18786524388FDA006A4451 /* STKCoreFoundationDataSource.m */; };
+		FF18787224388FDA006A4451 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18786724388FDA006A4451 /* STKQueueEntry.m */; };
+		FF187876243891F3006A4451 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF187874243891F3006A4451 /* SnapKit.framework */; };
+		FF187877243891F3006A4451 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF187874243891F3006A4451 /* SnapKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF187878243891F3006A4451 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF187875243891F3006A4451 /* SwiftyJSON.framework */; };
+		FF187879243891F3006A4451 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF187875243891F3006A4451 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF18787F243892EB006A4451 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18787E243892EB006A4451 /* MailViewController.swift */; };
+		FF18788124389315006A4451 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18788024389315006A4451 /* WeatherViewController.swift */; };
+		FF1878832438933A006A4451 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1878822438933A006A4451 /* MusicViewController.swift */; };
+		FF1878852438980D006A4451 /* WeatherNum.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF1878842438980D006A4451 /* WeatherNum.plist */; };
+		FF18788C24389CA6006A4451 /* Zpix.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF18788B24389CA6006A4451 /* Zpix.ttf */; };
+		FF31F0A92449B9F100841DCD /* BitMicro01.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF31F0A82449B9F100841DCD /* BitMicro01.ttf */; };
+		FF31F0AB244C3DC600841DCD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF31F0AA244C3DC600841DCD /* MessageUI.framework */; };
+		FF33FC1B24655F2A004C1110 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33FC1A24655F2A004C1110 /* MainViewController.swift */; };
+		FF33FC1D24655F49004C1110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33FC1C24655F49004C1110 /* ViewController.swift */; };
+		FF9F31472466376C00E5BE80 /* MainViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9F31462466376C00E5BE80 /* MainViewControllerDelegate.swift */; };
+		FF9F3149246637B800E5BE80 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9F3148246637B800E5BE80 /* SidePanelViewController.swift */; };
+		FF9F314C2466623800E5BE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9F314E2466623800E5BE80 /* Main.storyboard */; };
+		FF9F315724669D5800E5BE80 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9F315524669D5800E5BE80 /* TableViewCell.swift */; };
+		FF9F315824669D5800E5BE80 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9F315624669D5800E5BE80 /* TableViewCell.xib */; };
+		FF9F315A24669ED200E5BE80 /* TableCellContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9F315924669ED200E5BE80 /* TableCellContent.swift */; };
+		FF9F315C2466C71C00E5BE80 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9F315B2466C71C00E5BE80 /* SQLite.framework */; };
+		FF9F315D2466C71C00E5BE80 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF9F315B2466C71C00E5BE80 /* SQLite.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF9F315F2466C76D00E5BE80 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9F315E2466C76D00E5BE80 /* SQLiteManager.swift */; };
+		FFCFC1002446B521001DE497 /* NetworkErrorWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFC0FF2446B521001DE497 /* NetworkErrorWeatherViewController.swift */; };
+		FFCFC1022446DC66001DE497 /* FateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFC1012446DC66001DE497 /* FateViewController.swift */; };
+		FFCFC10624471D28001DE497 /* NetworkErrorFateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFC10524471D28001DE497 /* NetworkErrorFateViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF18787A243891F3006A4451 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF187879243891F3006A4451 /* SwiftyJSON.framework in Embed Frameworks */,
+				FF187877243891F3006A4451 /* SnapKit.framework in Embed Frameworks */,
+				FF9F315D2466C71C00E5BE80 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FF18783D24388FAF006A4451 /* My Planet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Planet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF18784024388FAF006A4451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF18784224388FAF006A4451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF18784424388FAF006A4451 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF18784724388FAF006A4451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF18784924388FB2006A4451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF18784C24388FB2006A4451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF18784E24388FB2006A4451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF18785424388FD8006A4451 /* My Planet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Planet-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF18785524388FD9006A4451 /* STKDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
+		FF18785624388FD9006A4451 /* STKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
+		FF18785724388FD9006A4451 /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
+		FF18785824388FD9006A4451 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
+		FF18785924388FD9006A4451 /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		FF18785A24388FD9006A4451 /* STKHTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
+		FF18785B24388FD9006A4451 /* STKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKMacro.h; path = StreamingKit/STKMacro.h; sourceTree = "<group>"; };
+		FF18785C24388FD9006A4451 /* STKDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
+		FF18785D24388FD9006A4451 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		FF18785E24388FD9006A4451 /* STKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
+		FF18785F24388FD9006A4451 /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		FF18786024388FD9006A4451 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
+		FF18786124388FD9006A4451 /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
+		FF18786224388FD9006A4451 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
+		FF18786324388FD9006A4451 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STKLocalFileDataSource.m; path = StreamingKit/STKLocalFileDataSource.m; sourceTree = "<group>"; };
+		FF18786424388FD9006A4451 /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
+		FF18786524388FDA006A4451 /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
+		FF18786624388FDA006A4451 /* STKQueueEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
+		FF18786724388FDA006A4451 /* STKQueueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
+		FF18786824388FDA006A4451 /* STKSpinLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STKSpinLock.h; path = StreamingKit/STKSpinLock.h; sourceTree = "<group>"; };
+		FF18786924388FDA006A4451 /* StreamingKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "StreamingKit-Prefix.pch"; path = "StreamingKit/StreamingKit-Prefix.pch"; sourceTree = "<group>"; };
+		FF187874243891F3006A4451 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		FF187875243891F3006A4451 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FF18787E243892EB006A4451 /* MailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		FF18788024389315006A4451 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		FF1878822438933A006A4451 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		FF1878842438980D006A4451 /* WeatherNum.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeatherNum.plist; sourceTree = "<group>"; };
+		FF18788B24389CA6006A4451 /* Zpix.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zpix.ttf; sourceTree = "<group>"; };
+		FF1EBBD4246258B600C1F717 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FF1EBBE824625B2000C1F717 /* My Planet.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "My Planet.entitlements"; sourceTree = "<group>"; };
+		FF31F0A82449B9F100841DCD /* BitMicro01.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BitMicro01.ttf; sourceTree = "<group>"; };
+		FF31F0AA244C3DC600841DCD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FF33FBAF2463C2AD004C1110 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		FF33FBCE24640E86004C1110 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		FF33FC1A24655F2A004C1110 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FF33FC1C24655F49004C1110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF9F31462466376C00E5BE80 /* MainViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FF9F3148246637B800E5BE80 /* SidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		FF9F314D2466623800E5BE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9F315524669D5800E5BE80 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FF9F315624669D5800E5BE80 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		FF9F315924669ED200E5BE80 /* TableCellContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellContent.swift; sourceTree = "<group>"; };
+		FF9F315B2466C71C00E5BE80 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
+		FF9F315E2466C76D00E5BE80 /* SQLiteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		FFCFC0FF2446B521001DE497 /* NetworkErrorWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorWeatherViewController.swift; sourceTree = "<group>"; };
+		FFCFC1012446DC66001DE497 /* FateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FateViewController.swift; sourceTree = "<group>"; };
+		FFCFC10524471D28001DE497 /* NetworkErrorFateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorFateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +125,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF31F0AB244C3DC600841DCD /* MessageUI.framework in Frameworks */,
+				FF187878243891F3006A4451 /* SwiftyJSON.framework in Frameworks */,
+				FF9F315C2466C71C00E5BE80 /* SQLite.framework in Frameworks */,
+				FF187876243891F3006A4451 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +138,10 @@
 		FF18783424388FAF006A4451 = {
 			isa = PBXGroup;
 			children = (
+				FF18788A24389CA6006A4451 /* Fonts */,
 				FF18783F24388FAF006A4451 /* My Planet */,
 				FF18783E24388FAF006A4451 /* Products */,
+				FF187873243891F3006A4451 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +156,108 @@
 		FF18783F24388FAF006A4451 /* My Planet */ = {
 			isa = PBXGroup;
 			children = (
+				FF1EBBE824625B2000C1F717 /* My Planet.entitlements */,
+				FF1EBBCC2461AEC300C1F717 /* Error-Controller */,
+				FF4B93CF243DF6FB0061B024 /* AudioPlayer */,
+				FF1EBBCB2461AE8F00C1F717 /* Controllers */,
 				FF18784024388FAF006A4451 /* AppDelegate.swift */,
 				FF18784224388FAF006A4451 /* SceneDelegate.swift */,
-				FF18784424388FAF006A4451 /* ViewController.swift */,
-				FF18784624388FAF006A4451 /* Main.storyboard */,
 				FF18784924388FB2006A4451 /* Assets.xcassets */,
+				FF9F314E2466623800E5BE80 /* Main.storyboard */,
 				FF18784B24388FB2006A4451 /* LaunchScreen.storyboard */,
+				FF1878842438980D006A4451 /* WeatherNum.plist */,
 				FF18784E24388FB2006A4451 /* Info.plist */,
+				FF18785424388FD8006A4451 /* My Planet-Bridging-Header.h */,
+				FF9F315E2466C76D00E5BE80 /* SQLiteManager.swift */,
 			);
 			path = "My Planet";
+			sourceTree = "<group>";
+		};
+		FF187873243891F3006A4451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9F315B2466C71C00E5BE80 /* SQLite.framework */,
+				FF31F0AA244C3DC600841DCD /* MessageUI.framework */,
+				FF187874243891F3006A4451 /* SnapKit.framework */,
+				FF187875243891F3006A4451 /* SwiftyJSON.framework */,
+				FF1EBBD4246258B600C1F717 /* NotificationCenter.framework */,
+				FF33FBAF2463C2AD004C1110 /* Messages.framework */,
+				FF33FBCE24640E86004C1110 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF18788A24389CA6006A4451 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FF31F0A82449B9F100841DCD /* BitMicro01.ttf */,
+				FF18788B24389CA6006A4451 /* Zpix.ttf */,
+			);
+			name = Fonts;
+			path = "My Planet/Fonts";
+			sourceTree = "<group>";
+		};
+		FF1EBBCB2461AE8F00C1F717 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFEB1FA924810B2D006B8EA6 /* SidePanel */,
+				FF33FC1C24655F49004C1110 /* ViewController.swift */,
+				FF33FC1A24655F2A004C1110 /* MainViewController.swift */,
+				FF9F31462466376C00E5BE80 /* MainViewControllerDelegate.swift */,
+				FF18787E243892EB006A4451 /* MailViewController.swift */,
+				FF1878822438933A006A4451 /* MusicViewController.swift */,
+				FF18788024389315006A4451 /* WeatherViewController.swift */,
+				FFCFC1012446DC66001DE497 /* FateViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FF1EBBCC2461AEC300C1F717 /* Error-Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFCFC0FF2446B521001DE497 /* NetworkErrorWeatherViewController.swift */,
+				FFCFC10524471D28001DE497 /* NetworkErrorFateViewController.swift */,
+			);
+			name = "Error-Controller";
+			sourceTree = "<group>";
+		};
+		FF4B93CF243DF6FB0061B024 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF18785924388FD9006A4451 /* NSMutableArray+STKAudioPlayer.h */,
+				FF18786024388FD9006A4451 /* NSMutableArray+STKAudioPlayer.m */,
+				FF18785E24388FD9006A4451 /* STKAudioPlayer.h */,
+				FF18785624388FD9006A4451 /* STKAudioPlayer.m */,
+				FF18785D24388FD9006A4451 /* STKAutoRecoveringHTTPDataSource.h */,
+				FF18785724388FD9006A4451 /* STKAutoRecoveringHTTPDataSource.m */,
+				FF18786424388FD9006A4451 /* STKCoreFoundationDataSource.h */,
+				FF18786524388FDA006A4451 /* STKCoreFoundationDataSource.m */,
+				FF18785C24388FD9006A4451 /* STKDataSource.h */,
+				FF18785524388FD9006A4451 /* STKDataSource.m */,
+				FF18785824388FD9006A4451 /* STKDataSourceWrapper.h */,
+				FF18786124388FD9006A4451 /* STKDataSourceWrapper.m */,
+				FF18786224388FD9006A4451 /* STKHTTPDataSource.h */,
+				FF18785A24388FD9006A4451 /* STKHTTPDataSource.m */,
+				FF18785F24388FD9006A4451 /* STKLocalFileDataSource.h */,
+				FF18786324388FD9006A4451 /* STKLocalFileDataSource.m */,
+				FF18785B24388FD9006A4451 /* STKMacro.h */,
+				FF18786624388FDA006A4451 /* STKQueueEntry.h */,
+				FF18786724388FDA006A4451 /* STKQueueEntry.m */,
+				FF18786824388FDA006A4451 /* STKSpinLock.h */,
+				FF18786924388FDA006A4451 /* StreamingKit-Prefix.pch */,
+			);
+			name = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		FFEB1FA924810B2D006B8EA6 /* SidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				FF9F3148246637B800E5BE80 /* SidePanelViewController.swift */,
+				FF9F315524669D5800E5BE80 /* TableViewCell.swift */,
+				FF9F315624669D5800E5BE80 /* TableViewCell.xib */,
+				FF9F315924669ED200E5BE80 /* TableCellContent.swift */,
+			);
+			name = SidePanel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +270,8 @@
 				FF18783924388FAF006A4451 /* Sources */,
 				FF18783A24388FAF006A4451 /* Frameworks */,
 				FF18783B24388FAF006A4451 /* Resources */,
+				FF18787A243891F3006A4451 /* Embed Frameworks */,
+				FFCD25452444A7CE00551DDE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -99,6 +294,7 @@
 				TargetAttributes = {
 					FF18783C24388FAF006A4451 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -125,42 +321,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF31F0A92449B9F100841DCD /* BitMicro01.ttf in Resources */,
 				FF18784D24388FB2006A4451 /* LaunchScreen.storyboard in Resources */,
+				FF9F315824669D5800E5BE80 /* TableViewCell.xib in Resources */,
 				FF18784A24388FB2006A4451 /* Assets.xcassets in Resources */,
-				FF18784824388FAF006A4451 /* Main.storyboard in Resources */,
+				FF9F314C2466623800E5BE80 /* Main.storyboard in Resources */,
+				FF18788C24389CA6006A4451 /* Zpix.ttf in Resources */,
+				FF1878852438980D006A4451 /* WeatherNum.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FFCD25452444A7CE00551DDE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/Carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF18783924388FAF006A4451 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF18784524388FAF006A4451 /* ViewController.swift in Sources */,
+				FF18786E24388FDA006A4451 /* NSMutableArray+STKAudioPlayer.m in Sources */,
+				FF33FC1D24655F49004C1110 /* ViewController.swift in Sources */,
+				FF18786C24388FDA006A4451 /* STKAutoRecoveringHTTPDataSource.m in Sources */,
+				FF9F315F2466C76D00E5BE80 /* SQLiteManager.swift in Sources */,
+				FF18786D24388FDA006A4451 /* STKHTTPDataSource.m in Sources */,
+				FF18786F24388FDA006A4451 /* STKDataSourceWrapper.m in Sources */,
+				FF33FC1B24655F2A004C1110 /* MainViewController.swift in Sources */,
+				FFCFC1002446B521001DE497 /* NetworkErrorWeatherViewController.swift in Sources */,
 				FF18784124388FAF006A4451 /* AppDelegate.swift in Sources */,
+				FF9F31472466376C00E5BE80 /* MainViewControllerDelegate.swift in Sources */,
+				FF1878832438933A006A4451 /* MusicViewController.swift in Sources */,
+				FF18786B24388FDA006A4451 /* STKAudioPlayer.m in Sources */,
+				FFCFC1022446DC66001DE497 /* FateViewController.swift in Sources */,
 				FF18784324388FAF006A4451 /* SceneDelegate.swift in Sources */,
+				FF18787124388FDA006A4451 /* STKCoreFoundationDataSource.m in Sources */,
+				FF18787F243892EB006A4451 /* MailViewController.swift in Sources */,
+				FF9F315A24669ED200E5BE80 /* TableCellContent.swift in Sources */,
+				FF18786A24388FDA006A4451 /* STKDataSource.m in Sources */,
+				FFCFC10624471D28001DE497 /* NetworkErrorFateViewController.swift in Sources */,
+				FF9F315724669D5800E5BE80 /* TableViewCell.swift in Sources */,
+				FF18788124389315006A4451 /* WeatherViewController.swift in Sources */,
+				FF9F3149246637B800E5BE80 /* SidePanelViewController.swift in Sources */,
+				FF18787024388FDA006A4451 /* STKLocalFileDataSource.m in Sources */,
+				FF18787224388FDA006A4451 /* STKQueueEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF18784624388FAF006A4451 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF18784724388FAF006A4451 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF18784B24388FB2006A4451 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FF18784C24388FB2006A4451 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9F314E2466623800E5BE80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9F314D2466623800E5BE80 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -216,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,17 +529,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "My Planet/My Planet.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WQ6PU892QS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "My Planet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KanoYuta.My-Planet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "My Planet/My Planet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,17 +560,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "My Planet/My Planet.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WQ6PU892QS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "My Planet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KanoYuta.My-Planet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "My Planet/My Planet-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
